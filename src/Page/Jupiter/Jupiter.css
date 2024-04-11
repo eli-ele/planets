@@ -1,0 +1,70 @@
+.footerdiv{
+    display: flex;
+}
+.jupiter{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.Jupiter .button1:hover{
+    border-bottom: 5px solid #D83A34;
+}
+.Jupiter .button2:hover{
+    border-bottom: 5px solid #D83A34;
+}
+.Jupiter .button3:hover{
+    border-bottom: 5px solid #D83A34;
+}
+
+
+@media screen and (min-width:900px){
+    
+    .footerdiv{
+      display: flex;
+    }
+   .jupiter{
+      display: flex;
+      color: white;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    .Jupiter .button1:hover{
+        background-color: #D83A34;
+    }
+    .Jupiter .button2:hover{
+        background-color: #D83A34;
+    }
+    
+    .Jupiter .button3:hover{
+        background-color: #D83A34;
+    }
+    
+
+}
+
+
+@media screen and (min-width:1200px){
+    .footerdiv{
+        display: flex;
+    }
+    .jupiter{
+        display: flex;
+        color: white;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .Jupiter .button1:hover{
+        background-color: #D83A34;
+    }
+    .Jupiter .button2:hover{
+        background-color: #D83A34;
+    }
+    .Jupiter .button3:hover{
+        background-color: #D83A34;
+    }
+    
+    
+
+
+}

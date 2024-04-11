@@ -1,0 +1,70 @@
+.footerdiv{
+    display: flex;
+}
+.mars{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.mars .button1:hover{
+    border-bottom:5px solid #D14C32 ;
+}
+.mars .button2:hover{
+    border-bottom:5px solid #000000 ;
+}
+.mars .button3:hover{
+    border-bottom:5px solid #D14C32 ;
+}
+
+
+
+@media screen and (min-width:900px){
+    .footerdiv{
+       display: flex;
+    }
+    .mars{
+       display: flex;
+       color: white;
+       flex-direction: column-reverse;
+       justify-content: center;
+    }
+    .mars .button1:hover{
+        background-color:   #D14C32;
+    }
+    .mars .button2:hover{
+        background-color:   #D14C32;
+    }
+    .mars .button3:hover{
+        background-color:   #D14C32;
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width:1200px){
+    .footerdiv{
+        display: flex;
+    }
+    .mars{
+        display: flex;
+        color: white;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .mars .button1:hover{
+        background-color:   #D14C32;
+    }
+    .mars .button2:hover{
+        background-color:   #D14C32;
+    }
+    .mars .button3:hover{
+        background-color:   #D14C32;
+    }
+
+    
+
+
+}

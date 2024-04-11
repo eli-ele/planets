@@ -1,0 +1,229 @@
+.navbar{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+.open a{
+    color: rgb(197, 194, 194);
+    padding-left: 15px;
+    margin: 0;
+}
+.open a:hover{
+    color: white;
+}
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color:#FFFFFF;
+    margin: 0;
+}
+.circle2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #F7CC7F;
+    margin: 0;
+}
+.circle3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #545BFE;
+    margin: 0;
+}
+.circle4{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #FF6A45;
+    margin: 0;
+}
+.circle5{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ECAD7A;
+    margin: 0;
+}
+.circle6{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #FCCB6B;
+    margin: 0;
+}
+.circle7{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #65F0D5;
+    margin: 0;
+}
+.circle8{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #497EFA;
+    margin: 0;
+}
+li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid rgb(57, 57, 57);
+    width: 400px;
+    height: 60px;
+}
+header ul {
+    display: flex;
+}
+nav .menu{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height:20px;
+}
+nav .menu span{
+  height: 3px;
+  width:20px;
+  background-color: white;
+  border-radius: 30px;
+}
+nav{
+  flex-direction: column;
+  align-items: start;
+}
+nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.open  {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+p{
+    color: white;
+}
+.footerdiv{
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width:900px){
+   .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    margin-top: 10px;
+   } 
+   header ul{
+     display: flex;
+     list-style:none
+   }
+   nav ul {
+    flex-direction: revert-layer;
+   }
+   a{
+    color: rgb(197, 194, 194);
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: "League Spartan", sans-serif;
+  }
+  a:hover{
+    color: white;
+  }
+  nav .menu {
+    display: none;
+   }
+   .tit{
+    font-size: 28px;
+    margin-bottom: 10px;
+   }
+   .circle1 {
+    display: none;
+   }
+   .circle2 {
+    display: none;
+   }
+   .circle3 {
+    display: none;
+   }
+   .circle4 {
+    display: none;
+   }
+   .circle5 {
+    display: none;
+   }
+   .circle6 {
+    display: none;
+   }
+   .circle7 {
+    display: none;
+   }
+   .circle8 {
+    display: none;
+   }
+   li {
+    width: 100px;
+   }
+   li {
+    border: none;
+   }
+   .footerdiv{
+    display: flex;
+   }
+   
+  
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        border-bottom: 1px solid gray;
+        padding: 30px;
+       } 
+    nav ul {
+        display: flex;
+    }
+    nav{
+        flex-direction:row;
+      }
+    li {
+        border: none;
+    }
+
+
+   
+    
+  
+
+
+}
+
+

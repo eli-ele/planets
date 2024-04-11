@@ -1,0 +1,72 @@
+.footerdiv{
+    display: flex;
+}
+.uranus{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.uranus .button1:hover:hover{
+    border-bottom: 5px solid #1EC1A2;
+}
+.uranus .button2:hover:hover{
+    border-bottom:5px solid #1EC1A2;
+}
+.uranus .button3:hover:hover{
+    border-bottom:5px solid #1EC1A2;
+}
+
+
+
+
+
+@media screen and (min-width:900px){
+    
+   .footerdiv{
+      display: flex;
+    }
+    .uranus{
+      display: flex;
+      color: white;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    .uranus .button1:hover{
+        background-color: #1EC1A2;
+    }
+    .uranus .button2:hover{
+        background-color: #1EC1A2;
+    }
+    .uranus .button3:hover{
+        background-color: #1EC1A2;
+    }
+
+
+}
+
+
+@media screen and (min-width:1200px){
+    .footerdiv{
+        display: flex;
+    }
+    .uranus{
+        display: flex;
+        color: white;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .uranus .button1:hover{
+        background-color: #1EC1A2;
+    }
+    .uranus .button2:hover{
+        background-color: #1EC1A2;
+    }
+    .uranus .button3:hover{
+        background-color: #1EC1A2;
+    }
+
+    
+
+
+}

@@ -1,0 +1,65 @@
+.footerdiv{
+    display: flex;
+}
+.earth{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.Earth .button1:hover{
+    border-bottom: 5px solid #6D2ED5;
+}
+.Earth .button2:hover{
+    border-bottom: 5px solid #6D2ED5;
+}
+.Earth .button3:hover{
+    border-bottom: 5px solid #6D2ED5;
+}
+
+
+@media screen and (min-width:900px){
+    .footerdiv{
+        display: flex;
+    }
+    .earth{
+       display: flex;
+       color: white;
+       flex-direction: column-reverse;
+       justify-content: center;
+    }
+    .Earth .button1:hover{
+        background-color: #6D2ED5;
+    }
+    .Earth .button2:hover{
+        background-color: #6D2ED5;
+    }
+    .Earth .button3:hover{
+        background-color: #6D2ED5;
+    }
+
+
+}
+@media screen and (min-width:1200px){
+    .footerdiv{
+        display: flex;
+    }
+    .earth{
+        display: flex;
+        color: white;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .Earth .button1:hover{
+        background-color: #6D2ED5;
+    }
+    .Earth .button2:hover{
+        background-color: #6D2ED5;
+    }
+    .Earth .button3:hover{
+        background-color: #6D2ED5;
+    }
+
+   
+
+}

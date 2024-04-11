@@ -1,0 +1,78 @@
+.footerdiv{
+    display: flex;
+}
+.neptune{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.neptune .button1:hover{
+    border-bottom: 5px solid #2D68F0 ;
+}
+.neptune .button2:hover{
+    border-bottom: 5px solid #2D68F0 ;
+}
+.neptune .button3:hover{
+    border-bottom: 5px solid #2D68F0 ;
+}
+
+
+
+@media screen and (min-width:900px){
+    .footerdiv{
+       display: flex;
+    }
+    .neptune{
+       display: flex;
+       color: white;
+       flex-direction: column-reverse;
+       justify-content: center;
+    }
+    .title{
+        color: white;
+        font-family:  Antonio;
+    }
+    .neptune .button1:hover{
+        background-color: #2D68F0;
+    }
+    .neptune .button2:hover{
+        background-color: #2D68F0;
+    }
+    .neptune .button3:hover{
+        background-color: #2D68F0;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:1200px){
+    .footerdiv{
+        display: flex;
+    }
+    .neptune{
+        display: flex;
+        color: white;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .title{
+        color: white;
+        font-family:  Antonio;
+    }
+    .neptune .button1:hover{
+        background-color: #2D68F0;
+    }
+    .neptune .button2:hover{
+        background-color: #2D68F0;
+    }
+    .neptune .button3:hover{
+        background-color: #2D68F0;
+    }
+
+
+
+
+}
