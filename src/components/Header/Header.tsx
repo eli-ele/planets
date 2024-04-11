@@ -1,7 +1,6 @@
 import './Header.css'
 import '../Header/Header.css'
 import { Link  } from "react-router-dom"
-// import Group6 from '..//../assets/image/Group6.png'
 import { useState } from 'react'
 
 const Header = () => {

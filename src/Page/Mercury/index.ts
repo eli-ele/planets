@@ -1,5 +1,2 @@
 export {default as MercureItem} from './Mercure-item/Mercureitem'
 export { default as Mercury } from './Mercury'
-// export { default as Venus } from './/../Venus/Venus'
-// export {default as Vanusgeology} from './/../Venus/Venusgeology'
-// export { default as Venusstrucrure} from'.//../Venus/Venusstrucrure'
