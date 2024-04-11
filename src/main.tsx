@@ -15,9 +15,9 @@ import Geology from './Page/Mercury/Geology.tsx';
 import NeptuneStructure from './Page/Neptune/NeptuneStructure.tsx';
 import Neptunegeology from './Page/Neptune/Neptungeology.tsx';
 import Earthstructure from './Page/Earth/Earthstructure.tsx';
+import Earthgeology from './Page/Earth/Earthgeology.tsx';
 import Venusstructure from './Page/Venus/Venusstrucrure.tsx';
 import Venusgeology from './Page/Venus/Venusgeology.tsx';
-
 import Marsstructure from './Page/Mars/Marsstructure.tsx';
 import Marsgeology from './Page/Mars/Marsgeology.tsx';
 import Jupiterstructure from './Page/Jupiter/Jupiterstructure.tsx';
@@ -26,7 +26,6 @@ import Saturnstructure from './Page/Saturn/Saturnstructure.tsx';
 import Saturngeology from './assets/Saturn/saturn3.png'
 import Uranusstructure from './Page/Uranus/Uranusstructure.tsx';
 import Uranusgeology from './Page/Uranus/Uranusgeology.tsx';
-import Earthgeology from './Page/Earth/Earthgeology.tsx';
 
 const router = createBrowserRouter([
   {
@@ -78,6 +77,10 @@ const router = createBrowserRouter([
     element: <NeptuneStructure />
   },
   {
+    path: "/neptunegeology",
+    element: <Neptunegeology />
+  },
+  {
     path: "/earthstructure",
     element: <Earthstructure />
   },
@@ -86,17 +89,12 @@ const router = createBrowserRouter([
     element: <Earthgeology />
   },
   {
-    path: "/neptunegeology",
-    element: <Neptunegeology />
-  },
-  {
     path: "/venusstructure",
     element: <Venusstructure />
   },
   {
     path: "/venusgeology",
     element: <Venusgeology />
-   
   },
   {
     path: "/marsstructure",
@@ -127,14 +125,10 @@ const router = createBrowserRouter([
     element: <Uranusstructure />
   },
   {
-    path: "/saturngeology",
+    path: "/uranusgeology",
     element: <Uranusgeology />
   },
-
-
-
   
-
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(
    <RouterProvider router={router} />

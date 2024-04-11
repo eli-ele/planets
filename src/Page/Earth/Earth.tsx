@@ -19,7 +19,7 @@ const Earth = () => {
       <div className='card2'>
         {data
           .filter((item: any) => item.name === "Earth")
-          .map((fact) => {
+          .map((fact,id) => {
             return (
               <>
                 <div className='desc'>
@@ -43,7 +43,7 @@ const Earth = () => {
                 </div>
                  <div className='foot'>
                     <div className='box'>
-                       <Earthitem className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
+                       <Earthitem  key={id} className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
                     </div>
                     <div className='box'>
                        <Earthitem title="REVOLUTION TIME" rotation={ fact.revolution }/>
@@ -62,7 +62,6 @@ const Earth = () => {
       </div>
     </div>
         </div>
-
   )
 }
 

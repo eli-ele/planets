@@ -19,7 +19,7 @@ const Jupiter = () => {
         <div className='card2'>
           {data
             .filter((item: any) => item.name === "Jupiter")
-            .map((fact) => {
+            .map((fact,id) => {
               return (
                 <>
                   <div className='desc'>
@@ -43,7 +43,7 @@ const Jupiter = () => {
                   </div>
                    <div className='foot'>
                       <div className='box'>
-                         <Jupiteritem className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
+                         <Jupiteritem  key={id} className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
                       </div>
                       <div className='box'>
                          <Jupiteritem title="REVOLUTION TIME" rotation={ fact.revolution }/>

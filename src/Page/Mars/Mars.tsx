@@ -45,7 +45,7 @@ const Mars = () => {
                   
                    <div className='foot'>
                       <div className='box'>
-                         <Marsitem className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
+                         <Marsitem  className="rotation" title="ROTATION TIME" rotation={ fact.rotation }/> 
                       </div>
                       <div className='box'>
                          <Marsitem title="REVOLUTION TIME" rotation={ fact.revolution }/>
