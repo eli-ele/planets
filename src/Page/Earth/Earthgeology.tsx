@@ -17,11 +17,11 @@ const Earthgeology = () => {
     <div className='Earth'>
       <div className='card2'>
         {data
-          .filter((item: any) => item.name === "Earth")
+          .filter((item: any) => item.name === "EARTH")
           .map((fact) => {
             return (
               <>
-                <div className='desc'>
+                <div   className='desc'>
                 <img className='img' src={Earth3}></img>
                   <div className='card3'>
                     <div className='order1'>
@@ -33,8 +33,8 @@ const Earthgeology = () => {
                   </a>
                     </p>
                     </div>
-                <div className='pages'>
-                     <p className='button1'>01 OVERVIEW <Link to="/mercury">EARTH</Link></p>
+                <div  className='pages'>
+                     <p className='button1'>01 OVERVIEW <Link to="/Earth">EARTH</Link></p>
                      <p className='button2'>02 Internal <Link to="/earthstructure">STRUCTURE</Link></p>
                      <p className='button2'>03 SURFACE <Link to="/earthgeology">GEOLOGY</Link></p>
                   </div>

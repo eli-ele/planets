@@ -74,6 +74,16 @@
 .mercury .button3:hover{
     border-bottom: 5px solid #419EBB;
 }
+.homeimg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Home {
+    width: 350px;
+    height: 400px;
+}
 
 
 @media screen and (min-width:900px){
@@ -181,6 +191,15 @@
     }
     .mercury .button3:hover{
         background-color: #419EBB;
+    }
+    .homeimg{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .Home {
+        width: 700px;
+        height: 600px;
     }
 
     
@@ -300,6 +319,15 @@
     }
     .mercury .button3:hover{
         background-color: #419EBB;
+    }
+    .homeimg{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .Home {
+        width: 1000px;
+        height: 800px;
     }
 
     

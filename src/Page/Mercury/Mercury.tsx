@@ -18,10 +18,10 @@ const Mercury = () => {
         <div className='card2'>
           {data
             .filter((item: any) => item.name === "MERCURY")
-            .map((fact,index) => {
+            .map((fact) => {
               return (
                 <>
-                  <div className='desc' key={index}>
+                  <div className='desc' >
                   <img className='img' src={Mercuryy}></img>
                     <div className='card3'>
                       <div className='order1'>

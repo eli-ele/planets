@@ -17,7 +17,7 @@ const Mars = () => {
       <div className='mars'>
         <div className='card2'>
           {data
-            .filter((item: any) => item.name === "Mars")
+            .filter((item: any) => item.name === "MARS")
             .map((fact) => {
               return (
                 <>

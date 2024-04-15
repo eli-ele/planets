@@ -23,7 +23,7 @@ import Marsgeology from './Page/Mars/Marsgeology.tsx';
 import Jupiterstructure from './Page/Jupiter/Jupiterstructure.tsx';
 import Jupitergeology from './Page/Jupiter/Jupitergeology.tsx';
 import Saturnstructure from './Page/Saturn/Saturnstructure.tsx';
-import Saturngeology from './assets/Saturn/saturn3.png'
+import Saturngeology from './Page/Saturn/Saturngeology';
 import Uranusstructure from './Page/Uranus/Uranusstructure.tsx';
 import Uranusgeology from './Page/Uranus/Uranusgeology.tsx';
 

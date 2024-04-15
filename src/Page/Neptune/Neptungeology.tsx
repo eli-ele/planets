@@ -33,7 +33,7 @@ const Neptunegeology = () => {
                       </p>
                       </div>
                   <div className='pages'>
-                     <p className='button1'>01 OVERVIEW <Link to="/neptune"></Link></p>
+                     <p className='button1'>01 OVERVIEW <Link to="/neptune">NEPTUNE</Link></p>
                      <p className='button2'>02 INTERNAT <Link to="/neptuneStructure">STRUCTURE</Link></p>
                      <p className='button3'>03 SURFACE  <Link to="/neptunegeology">GEOLOGY</Link></p>
                     </div>

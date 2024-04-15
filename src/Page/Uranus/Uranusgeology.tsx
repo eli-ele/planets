@@ -18,7 +18,7 @@ const Uranusgeology = () => {
       <div className='uranus'>
         <div className='card2'>
           {data
-            .filter((item: any) => item.name === "Saturn")
+            .filter((item: any) => item.name === "URANUS")
             .map((fact) => {
               return (
                 <>
@@ -35,9 +35,9 @@ const Uranusgeology = () => {
                       </p>
                       </div>
                   <div className='pages'>
-                     <p className='button1'>01 OVERVIEW <Link to="/"></Link></p>
-                     <p className='button2'>02 INTERNAT <Link to="/structure">STRUCTURE</Link></p>
-                     <p className='button3'>03 SURFACE <Link to="/geology">GEOLOGY</Link></p>
+                     <p className='button1'>01 OVERVIEW <Link to="/Uranus">URANUS</Link></p>
+                     <p className='button2'>02 INTERNAT <Link to="/Uranusstructure">STRUCTURE</Link></p>
+                     <p className='button3'>03 SURFACE <Link to="/Uranusgeology">GEOLOGY</Link></p>
                     </div>
                   </div>
                   </div>

@@ -18,11 +18,11 @@ const Jupiterstructure = () => {
       <div className='Jupiter'>
         <div className='card2'>
           {data
-            .filter((item: any) => item.name === "Jupoter")
+            .filter((item: any) => item.name === "JUPITER")
             .map((fact) => {
               return (
                 <>
-                  <div className='desc'>
+                  <div   className='desc'>
                   <img className='img' src = { jupiter3 } ></img>
                     <div className='card3'>
                       <div className='order1'>
@@ -35,7 +35,7 @@ const Jupiterstructure = () => {
                       </p>
                       </div>
                   <div className='pages'>
-                     <p className='button1'>01 OVERVIEW <Link to="/jupiter">JUPITER</Link></p>
+                     <p className='button1'>01 OVERVIEW <Link to="/Jupiter">JUPITER</Link></p>
                      <p className='button2'>02 INTERNAT <Link to="/jupiterstructure">STRUCTURE</Link></p>
                      <p className='button3'>03 SURFACE <Link to="/Jupitergeology">GEOLOGY</Link></p>
                     </div>

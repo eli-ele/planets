@@ -19,11 +19,11 @@ const Mars = () => {
         </div>
         <div className='card2'>
           {data
-            .filter((item: any) => item.name === "Mars")
+            .filter((item: any) => item.name === "MARS")
             .map((fact) => {
               return (
                 <>
-                  <div className='desc'>
+                  <div  className='desc'>
                   <img className='img' src = { Marss } ></img>
                     <div className='card3'>
                       <div className='order1'>
